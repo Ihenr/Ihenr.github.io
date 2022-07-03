@@ -619,6 +619,65 @@ h3.my-profession{
     height: 50px;
     padding: 0 50px;
 }
+/*----redes sociales*/
+.red .red-info-item{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.red .red-info-item .icon{
+    display: inline-block;
+}
+#whatsapp,
+#instagram,
+#twitter,
+#telegram,
+#envelope,
+#facebook {
+    font-size: 8em;
+    background-color: #18191f;
+    color: #fff;
+    box-shadow: 2px 2px 2px #00000080, 10px 1px 12px #00000080,
+      2px 2px 10px #00000080, 2px 2px 3px #00000080, inset 2px 2px 10px #00000080,
+      inset 2px 2px 10px #00000080, inset 2px 2px 10px #00000080,
+      inset 2px 2px 10px #00000080;
+    border-radius: 29px;
+    padding: 11px 19px;
+    margin: 0 40px;
+    animation: animate 3s linear infinite;
+    text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
+      0 0 200px #0072ff;
+  }
+#facebook {
+animation-delay: 0.7s;
+}
+#whatsapp {
+    animation-delay: 0.5s;
+}
+
+#instagram{
+    animation-delay: 0.9s;
+}
+#twitter{
+    animation-delay: 0.3s;
+}
+#telegram{
+    animation-delay: 0.1s;
+}
+#envelope{
+    animation-delay: 0.4s;
+}
+
+  
+@keyframes animate {
+    from {
+      filter: hue-rotate(0deg);
+    }
+    to {
+      filter: hue-rotate(360deg);
+    }
+  }
 @media (max-width:1199px){
     .aside{
         left: -270px;
@@ -634,6 +693,7 @@ h3.my-profession{
 @media (max-width:991px){
     .contact .contact-info-item,
     .portfolio .portfolio-item,
+    .red .red-info-item,
     .service .service-item{
         flex: 0 0 50%;
         max-width: 50%;
@@ -652,6 +712,7 @@ h3.my-profession{
     .contact .contact-form .col-6,
     .contact .contact-info-item,
     .portfolio .portfolio-item,
+    .red .red-info-item,
     .service .service-item,
     .about .about-content .experience,
     .about .about-content .education,
