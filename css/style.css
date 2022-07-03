@@ -33,10 +33,7 @@ ul{
     opacity: 1;
 
 }
-/*
-.hidden{
-    display: none !important;
-}*/
+
 .main-content{
     padding-left: 270px;
 }
@@ -164,22 +161,7 @@ ul{
     top: 0;
     right: 0;
 }
-/*===========================*/
-.aside .nav-toggler{
-    height: 40px;
-    width: 45px;
-    border: 1px solid var(--bg-black-50);
-    cursor: pointer;
-    position: fixed;
-    left: 300px;
-    top: 20px;
-    border-radius: 5px;
-    background: var(--bg-black-100);
-    display: none;
-    align-items: center;
-    justify-content: center;
-}
-/*===========================*/
+
 .aside .nav-toggler span{
     height: 2px;
     width: 18px;
